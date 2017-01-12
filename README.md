@@ -1,6 +1,6 @@
 # react-native-apollo-upload-network-interface
 
- react-native-apollo-upload-interface for Apollo GraphQL Client. Adds support for `multipart/form-data` requests.
+react-native-apollo-upload-interface for Apollo GraphQL Client. Adds support for `multipart/form-data` requests.
 
 ## Usage
 To use this module, replace the standard apollo-client network interface with this one.
@@ -8,11 +8,11 @@ To use this module, replace the standard apollo-client network interface with th
 ```
     import ApolloClient from 'apollo-client'
     import createNetworkInterface from 'apollo-upload-network-interface'
-    
+
     const networkInterface = createNetworkInterface({
       uri: '/graphql',
     })
-    
+
     const client = new ApolloClient({
       networkInterface
     })
@@ -52,3 +52,6 @@ I think this should be compatible with https://github.com/HriBB/graphql-server-e
 
 
 
+=======
+A network interface that enables file upload to graphql inside apollo
+>>>>>>> c4fb440ba54f0c32773c21755b0ddd26a436f0ea
