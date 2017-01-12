@@ -1,0 +1,34 @@
+{
+  "name": "react-native-apollo-upload-network-interface",
+  "version": "1.0.0",
+  "description": "A network interface for apollo file upload in react-native",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel ./src/index.js -o dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goharbr/react-native-apollo-upload-network-interface.git"
+  },
+  "keywords": [
+    "apollo",
+    "react-native",
+    "upload"
+  ],
+  "author": "Matt Johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goharbr/react-native-apollo-upload-network-interface/issues"
+  },
+  "homepage": "https://github.com/goharbr/react-native-apollo-upload-network-interface#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.13.0"
+  },
+  "dependencies": {
+    "apollo-client": "^0.7.0",
+    "react-native-fetch-blob": "^0.10.2-beta.3"
+  }
+}
