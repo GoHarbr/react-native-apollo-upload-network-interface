@@ -7,7 +7,7 @@ To use this module, replace the standard apollo-client network interface with th
 
 ```
     import ApolloClient from 'apollo-client'
-    import createNetworkInterface from 'apollo-upload-network-interface'
+    import createNetworkInterface from 'react-native-apollo-upload-network-interface'
 
     const networkInterface = createNetworkInterface({
       uri: '/graphql',
@@ -50,8 +50,3 @@ I may make a module for express-graphql-server with cloud storage options at Goo
 
 I think this should be compatible with https://github.com/HriBB/graphql-server-express-upload, but I have not tried it yet.
 
-
-
-=======
-A network interface that enables file upload to graphql inside apollo
->>>>>>> c4fb440ba54f0c32773c21755b0ddd26a436f0ea
